@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont{
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+input{
+  padding: 8px;
+  width: 70%;
+  margin: 10px;
+}
+
+button{
+  padding: 8px 12px;
+
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+ul li{
+margin-bottom: '1rem';
+border: 1px solid #ddd;
+padding: 8px;
+border-radius: 4px;
+}
+
+span{
+  margin-right: 10px;
 }
